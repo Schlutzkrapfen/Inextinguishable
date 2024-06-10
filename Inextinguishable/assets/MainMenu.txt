@@ -1,0 +1,31 @@
+Renderer.1 {
+    BackgroundColor = rgb(80, 80, 80);
+    BackgroundColorHover = rgb(100, 100, 100);
+    BorderColor = Black;
+    Font = "themes/editundo.TTF";
+    TextColor = rgb(255, 255, 255);
+    TextColorHover = rgb(250, 250, 250);
+    Texture = "themes/Button.png" Part(0, 0, 128, 40) Middle(30, 10, 60, 20) Smooth;
+    TextureDisabled = None;
+    TextureDown = "themes/Button_Pressed.png" Part(0, 0, 128, 40) Middle(30, 10, 60, 20) Smooth;
+    TextureDownFocused = None;
+    TextureDownHover = None;
+    TextureFocused = None;
+    TextureHover = "themes/Button_Hover.png" Part(0, 0, 128, 40) Middle(30, 10, 60, 20) Smooth;
+}
+
+Button.StartGameBtn {
+    Position = (520, 41.98);
+    Renderer = &1;
+    Size = (238, 95.4433);
+    Text = START;
+    TextSize = 80;
+}
+
+Button.QuitGameBtn {
+    Position = (520, 481.98);
+    Renderer = &1;
+    Size = (238, 95.4433);
+    Text = Quit;
+    TextSize = 80;
+}

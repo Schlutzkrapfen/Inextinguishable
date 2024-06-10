@@ -1,0 +1,41 @@
+ProgressBar.ExperinceBar {
+    Maximum = 100;
+    Minimum = 0;
+    Position = (10, 650);
+    Size = (225, 21);
+    Text = EXP;
+    TextSize = 13;
+    Value = 100;
+
+    Renderer {
+        BackgroundColor = #F5F5F5;
+        BorderColor = transparent;
+        Borders = (1, 1, 1, 1);
+        FillColor = #006EFF;
+        TextColor = #3C3C3C;
+        TextColorFilled = white;
+        TextureBackground = "themes/expirencebar.png" Middle(20, 0, 24, 10) NoSmooth;
+        TextureFill = "themes/expirencebarFill.png" Middle(16, 0, 32, 10) NoSmooth;
+    }
+}
+ProgressBar.HealthBar {
+    Maximum = 100;
+    Minimum = 0;
+    Position = (10, 650);
+    Size = (225, 21);
+    Text = EXP;
+    TextSize = 13;
+    Value = 100;
+
+    Renderer {
+        BackgroundColor = rgb(80, 80, 80);
+        BorderColor = Black;
+        FillColor = rgb(10, 110, 255);
+        TextColor = rgb(255, 255, 255);
+        TextColorFilled = rgb(250, 250, 250);
+        TextureBackground = "themes/Healtbar.png" Part(0,0 ,64, 10) Middle(20, 0);
+        TextureFill = "themes/HealtbarFill.png" Part(0, 0, 64, 10) Middle(16, 0);
+    }
+}
+
+
